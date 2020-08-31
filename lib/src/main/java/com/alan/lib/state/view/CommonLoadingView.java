@@ -33,7 +33,7 @@ public class CommonLoadingView extends LinearLayout implements ILoadingView {
     }
 
     private void initLayout() {
-        LayoutInflater.from(getContext()).inflate(R.layout.state_loading, this);
+        LayoutInflater.from(getContext()).inflate(R.layout.lib_state_loading, this);
         smileyLoadingView = findViewById(R.id.loading_view);
         textLoading = findViewById(R.id.text_loading);
         setBackgroundColor(Color.WHITE);

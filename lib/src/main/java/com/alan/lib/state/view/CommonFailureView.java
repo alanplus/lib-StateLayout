@@ -31,7 +31,7 @@ public class CommonFailureView extends LinearLayout implements IFailureView {
     }
 
     private void initLayout() {
-        LayoutInflater.from(getContext()).inflate(R.layout.state_failure, this);
+        LayoutInflater.from(getContext()).inflate(R.layout.lib_state_failure, this);
         textFailure = findViewById(R.id.view_state_text);
         textRetry = findViewById(R.id.retry);
         setBackgroundColor(Color.WHITE);
